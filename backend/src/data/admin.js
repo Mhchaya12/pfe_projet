@@ -111,6 +111,10 @@ const initialActiveAlerts = [
   { id: 5, title: "Fuite d'eau détectée sur le réseau principal", time: "14/03 20:08", severity: "orange" },
 ];
 
-const Alert=[
-  {id :"" , message:""}
+const mockAlerts = [
+  { id: 1, message: 'Alerte critique sur le serveur', type: 'critical', resolved: false },
+  { id: 2, message: 'Mise à jour disponible', type: 'info', resolved: true },
+  { id: 3, message: 'Espace disque faible', type: 'warning', resolved: false }
 ];
+
+export { energyData, energyOptions, trafficData, trafficOptions, metricsData, wasteLevels, initialActiveAlerts, mockAlerts };
